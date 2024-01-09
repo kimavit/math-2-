@@ -1,0 +1,6 @@
+from math import *
+n = float(input())
+a = float(input())
+pi = 3.141592653589793
+s = (n*(pow(a,2)))/(4*tan((pi/n)))
+print(s)
